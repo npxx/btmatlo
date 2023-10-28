@@ -32,6 +32,7 @@ public class Quanttask : MonoBehaviour
         if ((t3 == t7) && (t7 == t8) && (t8 == "0") && (t1 == t2) && (t2 == t4) && (t4 == t5) && (t5 == t6) && (t6 == "1"))
         {
             Debug.Log("okayy");
+            Task.setTask1();
         }
         else
         {

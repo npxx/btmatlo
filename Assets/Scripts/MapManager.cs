@@ -15,5 +15,9 @@ public class MapManager : MonoBehaviour
         SceneManager.LoadScene(4);
    }
 
+    public void showmap()
+    {
+        SceneManager.LoadScene(2);
+    }
 
 }
